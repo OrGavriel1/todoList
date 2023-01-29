@@ -1,0 +1,121 @@
+body {
+  background-color: rgb(65, 65, 236);
+  font: 1.2em "Fira Sans", sans-serif;
+}
+h1 {
+  color: white;
+  font-size: 3rem;
+}
+.complete .todoText {
+  text-decoration: line-through;
+}
+.hbox {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.vbox {
+  display: flex;
+  direction: column;
+}
+.justify-c-center {
+  justify-content: center;
+}
+.marginEnd1 {
+  width: 500px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+input:focus {
+  outline: none;
+}
+
+.todoDlt {
+  cursor: pointer;
+  color: red;
+  font-size: 20px;
+  /* justify-content: end; */
+  background: none;
+  border: none;
+
+  /* margin-right: 100px; */
+}
+.todoCB {
+  display: flex;
+  cursor: pointer;
+  /* margin-top: 20px; */
+  margin-left: 10px;
+  color: rgb(197, 197, 255);
+}
+
+.todoText {
+  /* margin-left: 0.5rem; */
+  /* margin-left: 300px; */
+  color: rgb(65, 65, 236);
+  font-size: 1.2rem;
+  cursor: pointer;
+
+  /* margin-left: 200px; */
+}
+.todoInput {
+  margin-left: 0.5rem;
+  border: none;
+  color: rgb(65, 65, 236);
+  font-size: 1.2rem;
+}
+.todoInput:focus {
+  outline: none;
+}
+.todoLi {
+  height: 3rem;
+
+  background-color: white;
+  border-bottom: 2px solid rgb(207, 205, 205);
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  border-radius: 8px;
+
+  /* justify-content: center; */
+}
+
+.enterTodo {
+  width: 500px;
+  margin: auto;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: row;
+}
+.btnAddTodo {
+  position: absolute;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: rgb(65, 65, 236);
+  margin-bottom: 10px;
+}
+.group1 {
+  width: 200px;
+  display: flex;
+}
+.todosList {
+  width: 500px;
+  margin: auto;
+  padding: 1rem 0;
+}
+
+.todoSave {
+  background: none;
+  border: none;
+  color: blue;
+  font-size: 1.5rem;
+}
+.listImage {
+  position: absolute;
+  margin-left: 480px;
+  margin-bottom: 8px;
+  color: blue;
+}
+f

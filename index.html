@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TODO LIST</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <!-- title -->
+  <body dir="rtl">
+    <div class="hbox justify-c-center">
+      <h1>רשימת משימות</h1>
+    </div>
+    <!-- input section -->
+    <div class="enterTodo hbox">
+      <!-- <i class="fa fa-list-alt"></i> -->
+      <i class="fa fa-list-alt listImage" aria-hidden="true"></i>
+      <input
+        class="marginEnd1"
+        type="text"
+        placeholder="הקלד משימה"
+        id="inputTodo"
+      />
+      <button type="submit" id="btnAddTodo" class="btnAddTodo">
+        <i class="fa fa-plus-circle"></i>
+      </button>
+    </div>
+    <!-- todo list -->
+    <div class="list">
+      <ul id="todosList" class="todosList"></ul>
+    </div>
+
+    <script src="src/index.js"></script>
+    <script src="src/createUi.js"></script>
+  </body>
+</html>
